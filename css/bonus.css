@@ -1,20 +1,28 @@
 body{
-    margin: 0%;
+    margin: 0%; 
 }
+
 header{
+    background-position:top ;
     background-image: url(../img/pattern.png);    
     background-repeat: repeat;
     background-color:#4EA0FF;
     height:180px; 
     position: relative;  
 }
+
 #logo{
     position:absolute;
     height: 100px;
     width: auto;
     top:70px;
-
 }
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
 p>span{
     background-color: yellow;
 }
@@ -52,11 +60,20 @@ main>section{
     color: #828282;
 }
 
-footer{
-    position: absolute;
+.image,.image2{
+    position: relative;
 }
 
-.on-img{
-    position: relative;
-    right: 15px;
+.image span{
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 10px  ;
+}
+
+.image2 span{
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 10px  ;
 }
