@@ -1,6 +1,6 @@
-*{
+/* *{
     margin: 0%;
-}
+} */
 header{
     background-image: url(../img/pattern.png);    
     background-repeat: repeat;
@@ -17,5 +17,31 @@ header{
 }
 p>span{
     background-color: yellow;
+}
+
+section>span{
+    color: rgb(0, 145, 255);
+}
+
+table{
+    border-collapse:collapse;
+    width: 100%;
+    
+}
+
+
+table tr:first-child{
+    color: white;
+    background-color: #20a9e5;
+    
+}
+
+tr:nth-child(even) {
+    background-color: #B1E5F2; 
+}
+
+
+main>section{
+    color: #828282;
 }
 
