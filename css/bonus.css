@@ -1,6 +1,6 @@
-/* *{
+body{
     margin: 0%;
-} */
+}
 header{
     background-image: url(../img/pattern.png);    
     background-repeat: repeat;
@@ -23,12 +23,20 @@ section>span{
     color: rgb(0, 145, 255);
 }
 
+#lista{
+    padding-left: 2%;
+}
+
 table{
     border-collapse:collapse;
     width: 100%;
     
 }
 
+td,th{
+    width: 20px;
+    text-align: left;
+}
 
 table tr:first-child{
     color: white;
@@ -40,8 +48,15 @@ tr:nth-child(even) {
     background-color: #B1E5F2; 
 }
 
-
 main>section{
     color: #828282;
 }
 
+footer{
+    position: absolute;
+}
+
+.on-img{
+    position: relative;
+    right: 15px;
+}
