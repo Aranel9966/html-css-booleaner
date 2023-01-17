@@ -1,25 +1,29 @@
-body{
-    margin: 0%;
+*{
+    margin: 0; 
+    box-sizing: border-box;
+    padding: 0;
 }
+
 header{
-    background-position:top ;
     background-image: url(../img/pattern.png);    
-    background-repeat: repeat;
     background-color:#4EA0FF;
-    height:180px; 
-    position: relative;  
+    padding-top:40px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    background-size: auto 200%; 
 }
+
+
 .container{
     width: 99%;
     margin: 0 auto;
 }
-#logo{
-    position:absolute;
-    height: 100px;
-    width: auto;
-    top:70px;
 
+
+#logo{
+    height: 40px;
 }
+
 p>span{
     background-color: yellow;
 }
@@ -38,18 +42,17 @@ table{
     
 }
 
-td,th{
-    width: 20px;
-    text-align: left;
+#column{
+    width: 50%;
 }
 
-table tr:first-child{
+thead{
     color: white;
     background-color: #20a9e5;
     
 }
 
-tr:nth-child(even) {
+tbody tr:nth-child(odd) {
     background-color: #B1E5F2; 
 }
 
